@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register/Login Page</title>
+
+<style>
+	
+    /* Set additional styling options for the columns*/
+    .column {
+    flex:50%;
+    border-style:double;
+    
+    }
+
+    .row{    
+    display: flex;    
+    }
+
+
+</style>
+</head>
+<body>
+<br><br><br><br><br><br><br>
+	<div class="row">
+
+		<div class="column" align = "center" style="background-color:#eeffcc">
+
+			<div>
+				<h3>Manager Login</h3>
+				<form method="post" action="manager_login.jsp">
+					<label>Username: </label> <input type="text" name="username" required><br />
+					<label>Password: </label> <input type="password" name="password" required><br />
+					<input type="submit" value="Login"><br />
+				</form>
+			</div>
+
+			<div>
+				Manager Registration<a href="registerManager.html">Click here</a>
+				
+			</div>
+
+		</div>
+
+		<div class="column" align = "center" style="background-color:#ccffff">
+
+			<div>
+				<h3>Employee Login</h3>
+				<form method="post" action="employee_login.jsp">
+					<label>Username: </label> <input type="text" name="username" required><br />
+					<label>Password: </label> <input type="password" name="password" required><br />
+					<input type="submit" value="Login"><br />
+				</form>
+			</div>
+
+			<div>
+				Employee Registration<a href="registerEmployee.html">Click here</a>				
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
